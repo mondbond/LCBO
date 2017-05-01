@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">LCBO</string>
+
+    <string name="products_search_activity">Search products</string>
+    <string name="products_category_activity">Products categories</string>
+
+    <string name="find">find</string>
+    <string name="ok">OK</string>
+    <string name="set_count">set count</string>
+    <string name="total_cost">total cost</string>
+
+    <string name="parking_filter">Parking available</string>
+    <string name="public_transit_filter">Public transit accessible</string>
+    <string name="wheelchair_filter">Wheelchair accessible</string>
+    <string name="vintages_corner_filter">Vintages corner available</string>
+    <string name="product_consulting_filter">Product consultant available</string>
+    <string name="tasting_bar_filter">Tasting bar available</string>
+    <string name="special_occasion_filter">Special occasion permits</string>
+    <string name="cold_beer_room_filter">Cold beer room</string>
+    <string name="bilingual_service_filter">Bilingual service available</string>
+
+    <string name="parking_filter_query">parking_available</string>
+    <string name="public_transit_filter_query">public_transit_accessible</string>
+    <string name="wheelchair_filter_query">wheelchair_accessible</string>
+    <string name="vintages_corner_filter_query">vintages_corner_available</string>
+    <string name="product_consulting_filter_query">product_consultant_available</string>
+    <string name="tasting_bar_filter_query">tasting_bar_available</string>
+    <string name="special_occasion_filter_query">special_occasion_permits</string>
+    <string name="cold_beer_room_filter_query">cold_beer_room</string>
+    <string name="bilingual_service_filter_query">bilingual_service_available</string>
+    <string name="title_activity_store_detail">Store detail</string>
+    <string name="title_activity_products_category">Products</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_base_drawer">BaseDrawerActivity</string>
+
+    <string name="is_discontinued">discontinued</string>
+    <string name="has_value_added_promotion">has value added promotion</string>
+    <string name="has_limited_time_offer">limited time offer</string>
+    <string name="has_bonus_reward_miles">bonus reward miles</string>
+    <string name="is_seasonal">is seasonal</string>
+    <string name="is_vqa">is vga</string>
+    <string name="is_ocb">is ocb</string>
+    <string name="is_kosher">is kosher</string>
+
+    <string name="turn_on_network_connection_error_msg">No saved data, turn on network connection</string>
+
+    <string name="about_text">
+The purpose of this app – to make our service more comfortable for our clients. In this app you can find any our store and look.
+at it on a map and get an information, what exactly used to sell there. Also if you want you can call to any of them.
+Beside it you can get information about our products and put it in your virtual cart! You can find a products by it\'s name and filters or by the categories.
+This awesome app works in an offline mode. So use it and get a pleasure from it and our products !
+</string>
+
+</resources>

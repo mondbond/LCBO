@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    tools:context="com.lcbo.view.dialog.ProductsSearchDialogFragment">
+
+    <GridLayout
+        android:id="@+id/store_search_dialog_contant_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:columnCount="2"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/product_search_is_discontinued_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="0"
+            android:button="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_is_has_promotion_filter"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="1"
+            android:background="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_limited_time_offer_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="2"
+            android:button="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_has_bonus_reward_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="3"
+            android:button="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_is_seasonal_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="4"
+            android:button="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_is_vga_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="5"
+            android:button="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_is_ocb_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="6"
+            android:button="@drawable/check_mark" />
+
+        <CheckBox
+            android:id="@+id/product_search_is_kosher_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginBottom="8dp"
+            android:layout_row="7"
+            android:button="@drawable/check_mark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="0"
+            android:text="@string/is_discontinued"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="1"
+            android:text="@string/has_value_added_promotion"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="2"
+            android:text="@string/has_limited_time_offer"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="3"
+            android:text="@string/has_bonus_reward_miles"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="4"
+            android:text="@string/is_seasonal"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="5"
+            android:text="@string/is_vqa"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="6"
+            android:text="@string/is_ocb"
+            android:textColor="@color/textColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="7"
+            android:text="@string/is_kosher"
+            android:textColor="@color/textColor" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/products_search_dialog_find_btn"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/store_search_dialog_contant_layout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:text="@string/ok"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/buttonTextColor" />
+</RelativeLayout>

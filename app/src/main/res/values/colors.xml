@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#d80027</color>
+
+    <color name="toolbar">#000000</color>
+
+    <color name="textColor">#212121</color>
+    <color name="lightTextColor">#424242</color>
+    <color name="breakLineColor">#E0E0E0</color>
+    <color name="buttonTextColor">#fff</color>
+</resources>
